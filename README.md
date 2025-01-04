@@ -43,9 +43,6 @@ Follow these steps to set up and run the application locally:
 
 1. **Clone the Repository**  
    Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/<your-repo>/trending-news-app.git
-   cd trending-news-app
 
 2. Set up a Virtual Environment (Optional)
     python3 -m venv venv
