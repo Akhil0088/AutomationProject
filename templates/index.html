@@ -178,13 +178,13 @@
     </div>
 
     <script type="text/javascript">
-        // Safely embed Jinja2 variables into JavaScript
-        let currentPage = {{ current_page | safe }};  // For numbers
-        const category = "{{ selected_category | safe }}";  // For strings
+        
+        let currentPage = {{ current_page | safe }};  
+        const category = "{{ selected_category | safe }}";  
     </script>
     <script>
         function loadMore() {
-            currentPage++;  // Increment the page number
+            currentPage++;  
             fetch("/load_more", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -205,7 +205,7 @@
                                 <a class="news-link" href="${news.url}" target="_blank">Read More</a>
                             </div>
                         </div>`;
-                    newsContainer.insertAdjacentHTML("beforeend", newsCard);  // Append news to the container
+                    newsContainer.insertAdjacentHTML("beforeend", newsCard); 
                 });
             });
         }
