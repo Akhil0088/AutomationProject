@@ -42,7 +42,6 @@ Follow these steps to set up and run the application locally:
 ### Steps
 
 1. **Clone the Repository**  
-   Clone this repository to your local machine:
 
 2. Set up a Virtual Environment (Optional)
     python3 -m venv venv
